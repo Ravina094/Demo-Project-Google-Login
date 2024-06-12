@@ -65,22 +65,22 @@ This is a Node.js application that allows users to register, log in via local, F
 
 5. **API Endpoints**
   **Authentication Routes**
-  POST /api/auth/register - Register a new user.
+   POST /api/auth/register - Register a new user.
 
-  Request Body: { "name": "John Doe", "email": "john@example.com", "password": "secret", "location": "New York" }
-  Response: { "message": "User registered successfully!", "data": { ...userDetails } }
-  POST /api/auth/login - Log in a user.
+   Request Body: { "name": "John Doe", "email": "john@example.com", "password": "secret", "location": "New York" }
+   Response: { "message": "User registered successfully!", "data": { ...userDetails } }
+   POST /api/auth/login - Log in a user.
 
-  Request Body: { "email": "john@example.com", "password": "secret" }
-  Response: { "message": "User logged in successfully!", "data": { ...userDetails } }
-  GET /api/auth/facebook - Redirect to Facebook for authentication.
+   Request Body: { "email": "john@example.com", "password": "secret" }
+   Response: { "message": "User logged in successfully!", "data": { ...userDetails } }
+   GET /api/auth/facebook - Redirect to Facebook for authentication.
+ 
+   GET /api/auth/facebook/callback - Facebook authentication callback.
 
-  GET /api/auth/facebook/callback - Facebook authentication callback.
+   GET /api/auth/google - Redirect to Google for authentication.
 
-  GET /api/auth/google - Redirect to Google for authentication.
+   GET /api/auth/google/callback - Google authentication callback.
 
-  GET /api/auth/google/callback - Google authentication callback.
-
-  **Weather Route**
-  GET /api/weather - Fetch weather data for the authenticated user's location.
-  Response: { "message": "Weather data fetched successfully!", "data": { ...weatherData } }
+ **Weather Route**
+   GET /api/weather - Fetch weather data for the authenticated user's location.
+   Response: { "message": "Weather data fetched successfully!", "data": { ...weatherData } }
