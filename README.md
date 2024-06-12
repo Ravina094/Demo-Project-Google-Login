@@ -31,13 +31,15 @@ This is a Node.js application that allows users to register, log in via local, F
    cd weather-app
 
 2. **Install dependencies:**
-
+3. 
+   ```bash
    npm install
 
-3. **Set up the environment variables:**
+4. **Set up the environment variables:**
 
    Create a .env file in the root directory and add the following:
-
+   
+  ```bash
   DB_NAME=your_database_name
   DB_USER=your_database_user
   DB_PASSWORD=your_database_password
