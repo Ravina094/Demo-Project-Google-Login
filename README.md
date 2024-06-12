@@ -39,24 +39,24 @@ This is a Node.js application that allows users to register, log in via local, F
 
    Create a .env file in the root directory and add the following:
    
-  ```bash
-  DB_NAME=your_database_name
-  DB_USER=your_database_user
-  DB_PASSWORD=your_database_password
-  DB_HOST=your_database_host
-  DB_DIALECT=mysql # or your preferred SQL dialect
+     ```bash
+   DB_NAME=your_database_name
+   DB_USER=your_database_user
+   DB_PASSWORD=your_database_password
+   DB_HOST=your_database_host
+   DB_DIALECT=mysql # or your preferred SQL dialect
 
-  SESSION_SECRET=your_session_secret
+   SESSION_SECRET=your_session_secret
   
-  FACEBOOK_CLIENT_ID=your_facebook_client_id
-  FACEBOOK_CLIENT_SECRET=your_facebook_client_secret
-  FACEBOOK_CALLBACK_URL=http://localhost:3000/api/auth/facebook/callback
+   FACEBOOK_CLIENT_ID=your_facebook_client_id
+   FACEBOOK_CLIENT_SECRET=your_facebook_client_secret
+   FACEBOOK_CALLBACK_URL=http://localhost:3000/api/auth/facebook/callback
 
-  GOOGLE_CLIENT_ID=your_google_client_id
-  GOOGLE_CLIENT_SECRET=your_google_client_secret
-  GOOGLE_CALLBACK_URL=http://localhost:3000/api/auth/google/callback
+   GOOGLE_CLIENT_ID=your_google_client_id
+   GOOGLE_CLIENT_SECRET=your_google_client_secret
+   GOOGLE_CALLBACK_URL=http://localhost:3000/api/auth/google/callback
 
-  OPENWEATHERMAP_API_KEY=your_openweathermap_api_key
+   OPENWEATHERMAP_API_KEY=your_openweathermap_api_key
 
 4. **Start the application:**
 
